@@ -1,86 +1,99 @@
-# 📊 Telco Customer Churn Analysis
+# 📊 Telecom Customer Churn Prediction System
 
-End-to-end data analytics project to analyze customer churn using **Python, SQL, and Power BI**.  
-This project follows a complete workflow from raw data → database → analysis → machine learning → dashboard.
-
----
-
-## 🎯 Objective
-To analyze customer behavior and identify factors that lead to customer churn, and build a predictive model.
+## 🧠 Objective
+To develop a predictive risk modeling system that identifies customers with high probability of churn, enabling data-driven retention strategies in the telecom sector.
 
 ---
 
-## 📂 Dataset
-- Telco Customer Churn Dataset
-- Contains customer demographics, services, tenure, charges, and churn status
+## 🎯 Problem Statement
+Customer churn represents a critical revenue leakage problem in subscription-based businesses.  
+The goal is to build a classification model that estimates churn probability using customer behavioral, demographic, and service usage data.
 
 ---
 
-## 🛠 Tools & Technologies
-- Python (Pandas, NumPy, Scikit-learn)
-- SQL (Data storage & querying)
-- Power BI (Dashboard & visualization)
-- Jupyter Notebook
+## 📁 Dataset Overview
+- Source: Telco Customer Churn Dataset  
+- Observations: Customer-level historical records  
+- Target Variable: Binary classification (Churn: Yes / No)  
+- Feature Types: Categorical + Numerical mixed structured data  
 
 ---
 
-## 🔄 Project Workflow
-
-### 1️⃣ Data Processing
-- Loaded CSV dataset
-- Cleaned missing values
-- Converted `TotalCharges` to numeric
-- Encoded `Churn` column (Yes → 1, No → 0)
-
----
-
-### 2️⃣ SQL Analysis
-- Stored data in SQLite database
-- Performed queries like:
-  - Total customers
-  - Churn count
-  - Average monthly charges
-  - Customer segmentation
+## 🛠️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
 ---
 
-### 3️⃣ Machine Learning
-- Applied Logistic Regression model
-- Train-test split
-- Evaluated performance
+## ⚙️ Methodology
 
-**Accuracy: ~79%**
+### 1. Data Preprocessing
+- Missing value treatment and type correction (`TotalCharges`)  
+- Encoding categorical variables  
+- Feature scaling for numerical stability  
 
----
+### 2. Exploratory Data Analysis (EDA)
+- Churn distribution analysis  
+- Feature correlation study  
+- Behavioral segmentation of customers  
 
-### 4️⃣ Power BI Dashboard
-- Created interactive dashboard
-- Visualized:
-  - Total Customers vs Churned Customers
-  - Churn Rate %
-  - Monthly Charges impact
-  - Tenure analysis
+### 3. Feature Engineering
+- Conversion of categorical variables into numerical space  
+- Identification of high-signal churn drivers  
+- Removal of redundant features  
 
----
+### 4. Model Development
+Models evaluated:
+- Logistic Regression (baseline)  
+- Decision Tree Classifier  
+- Random Forest Classifier (final model)  
 
-## 📊 Dashboard Preview
-
-![Dashboard](dashboard.png)
-
----
-
-## 🔥 Key Insights
-- Customers with low tenure are more likely to churn
-- Higher monthly charges increase churn probability
-- Fiber optic users show higher churn rate
+### 5. Evaluation Strategy
+- Accuracy  
+- Confusion Matrix  
+- Precision / Recall trade-off analysis  
 
 ---
 
-## 🚀 Project Outcome
-Built a complete end-to-end data analytics pipeline:
-**CSV → SQL → Python ML → Power BI Dashboard**
+## 📊 Results
+- Final Model: Random Forest Classifier  
+- Accuracy: ~79%  
+- Output: Probabilistic churn classification with improved generalization over baseline models  
+
+---
+
+## 📌 Key Insights
+- Month-to-month contracts exhibit significantly higher churn probability  
+- Higher monthly charges correlate positively with churn risk  
+- Customer tenure is inversely related to churn likelihood  
+- Service bundling reduces churn probability  
+
+---
+
+## 💡 Business Interpretation
+This model functions as a **customer risk scoring system**, enabling telecom operators to:
+- Identify high-risk customers early  
+- Optimize retention campaigns  
+- Reduce revenue leakage through proactive interventions  
+
+---
+
+## 🚀 Future Enhancements
+- Hyperparameter optimization for model tuning  
+- Gradient boosting models (XGBoost / LightGBM)  
+- Conversion into real-time prediction API (Flask / FastAPI)  
+- Deployment as interactive dashboard (Streamlit)  
 
 ---
 
 ## 👨‍💻 Author
-Aspiring Data Analyst | Python • SQL • Power BI • Machine Learning
+**Saivamshi Miryalkar**  
+Aspiring Data Analyst | Quantitative Thinking | Python | SQL | Machine Learning  
+
+---
+
+## 🔗 Repository
+https://github.com/svm-knocks/Telco-Churn-Analysis
