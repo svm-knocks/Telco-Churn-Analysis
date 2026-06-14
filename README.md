@@ -164,12 +164,10 @@ This predictive system helps telecom companies:
 ```text
 Telco-Churn-Analysis
 │
-├── churn_analysis.ipynb
-├── customer_churn.csv
-├── churn_queries.sql
-├── powerbi_dashboard.pbix
-├── dashboard_screenshot.png
-└── README.md
+├── Telco-Churn-Dashboard.pbix
+├── Telco-Customer-Churn.csv
+├── churn.ipynb
+├── dashboard.png
 ```
 
 ---
