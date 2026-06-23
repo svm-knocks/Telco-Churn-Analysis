@@ -196,7 +196,7 @@ Telco-Churn-Analysis
 
 🔗 GitHub: https://github.com/svm-knocks
 
-🔗 LinkedIn: Add Your LinkedIn Profile Here
+🔗 LinkedIn: https://www.linkedin.com/in/sai-vamshi-miryalkar-b850703ba
 
 ---
 
