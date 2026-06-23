@@ -177,7 +177,7 @@ Telco-Churn-Analysis
 > Add your Power BI Dashboard Screenshot here
 
 ```md
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](https://github.com/svm-knocks/Telco-Churn-Analysis/blob/main/Telco-Churn-Dashboard.pbix.png)
 ```
 
 ---
