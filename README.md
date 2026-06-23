@@ -174,11 +174,7 @@ Telco-Churn-Analysis
 
 ## 📷 Dashboard Preview
 
-> Add your Power BI Dashboard Screenshot here
-
-```md
 ![Dashboard](Telco-Churn-Dashboard.pbix.png)
-```
 
 ---
 
